@@ -1,0 +1,225 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.7;
+  color: gray;
+  background: whitesmoke;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.p-40-30 {
+  padding: 32px 0px;
+}
+
+.px-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.ps-40 {
+  padding-left: 40px;
+}
+
+.tab-ul li {
+  margin-bottom: 10px;
+}
+
+/* brand font size */
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-22 {
+  font-size: 22px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.gap-35 {
+  gap: 35px;
+}
+
+/* nav link colors */
+.nav-link {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #F7B633 !important;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.hero-700 {
+  height: 700px;
+}
+
+.hero-title {
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+.owl-dots {
+  position: absolute;
+  bottom: 105px;
+  width: 100%;
+  text-align: center;
+
+}
+
+/* default dot */
+.owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  background: rgba(255, 255, 255, 0.7);
+  display: block;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.owl-dot:hover span {
+  background: white;
+}
+
+/* active dot (your theme yellow) */
+.owl-dot.active span {
+  background: #F7B633;
+}
+
+
+
+.nav-tabs .nav-link-tabs {
+  border: none !important;
+  padding: 0%;
+  /* padding: 50px 1em !important; */
+  background: rgba(255, 255, 255, 0.5) !important;
+}
+
+.services-content {
+  padding: 20px;
+}
+
+
+
+/*  */
+
+
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.project-img img {
+  width: 100%;
+  height: 350px;
+}
+
+.animate-box:hover .project-img img {
+  filter: brightness(60%);
+}
+
+.project-entry:hover {
+  transform: translateY(-3px);
+  transition: ease-in-out 0.3s;
+}
+
+.project-img {
+  position: relative;
+}
+
+.project-img .icon {
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.project-entry:hover .icon {
+  opacity: 1;
+}
+
+
+.staff-overlay {
+  opacity: 0;
+}
+
+.staff-overlay:hover {
+  opacity: 1;
+  background-color: #F7B633;
+  transform: translate(0px);
+  transition: all ease-in-out 0.3s;
+}
+
+
+
+/*  */
+.accordion-button:not(.collapsed) {
+  background-color: white;
+  color: black;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  font-size: 30px !important;
+  margin: 20px;
+}
+
+
+.row-pb-md {
+  padding-bottom: 5em !important;
+}
+
+.footer-section h4 {
+  letter-spacing: 5px;
+  color: #e6e6e6;
+}
+
+/*  */
+.blog-img img {
+  width: 100%;
+  height: 300px;
+}
+
+
+/*  */
+
+.animate-box-blog {
+    margin-bottom: 50px;
+}
+
+.animate-box-blog .blog-img:hover img{
+    filter: brightness(60%);
+}
+
+.animate-box-blog:hover .icon {
+    opacity: 1 !important;
+    transition: 0.3s ease;
+}
+
+
+/*  */
+.contact .form-control{
+  padding: 10px 20px;
+}
+
+.contact .row .form-group{
+  margin-bottom: 30px;
+}
